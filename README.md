@@ -19,6 +19,8 @@ speedtest - Linux Shellscript
     
 speedtest-cli - Python Script bereitgestellt vom Speedtestanbieter.
     Führt den Speedtest durch.
+    siehe:
+    https://wiki.ubuntuusers.de/speedtest-cli/
     
 webpage
     Stellt die Ergebnisse der Tests grafisch dar.
