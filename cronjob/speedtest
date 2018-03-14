@@ -1,0 +1,5 @@
+#!/bin/bash
+logpath='/var/speedlog.txt'
+date +"%d.%m.%Y %T" >> $logpath
+/root/speedtest-cli --simple >> $logpath
+echo -e "\n" >> $logpath
