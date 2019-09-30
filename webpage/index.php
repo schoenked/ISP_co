@@ -312,7 +312,12 @@ function getChartData() {
     var chartData = [];
 	
 	<?php
-		for ($x = 0; $x < count($theTimes); $x++) {
+
+		$start = 0;
+		if (isset($_GET['set']))  {
+			$start = $_GET['set'];
+		}
+		for ($x = count($theTimes) - $start; $x < count($theTimes); $x++) {
 			echo '
 			chartData.push({
 			' ;	
